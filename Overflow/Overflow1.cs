@@ -1,13 +1,14 @@
-﻿using System;
+low﻿using System;
 
-namespace HelloWorld
+namespace OverflowTesting
 {
     class Program
     {
-        byte number = 255;
-number = number +1 // 0 because of overflow
+        
         static void Main(string[] args)
         {
+            byte number = 255;
+            number = number +1 // 0 because of overflow
             Console.WriteLine("255 + 1 =" number);
         }
     }
